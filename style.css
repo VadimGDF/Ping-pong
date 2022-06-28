@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+body {
+	margin: 0px;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+
+
+	position: relative;
+	
+}
+
+
+
+canvas {
+	display: block;
+	position: absolute;
+	top: 100px;
+	left: 600px;
+
+}
+.header{
+    height: 50px;
+    padding: 0;
+    background-color: black;
+    border-radius: 0 0 10px 10px;
+	display: flex;
+	align-items: top;
+}
+.game{
+    font-family: 'Roboto';
+    font-size: 28px;
+    color: rgb(217, 60, 60);
+    text-decoration:none;
+    margin-top: 10px;
+    
+}
+.wrapper{
+    padding: 0;
+    margin: 0 50px 0 50px;
+    display: flex;
+    justify-content: space-between;
+	width: 1440px;
+}
+.game-three{
+    color: white;
+}
